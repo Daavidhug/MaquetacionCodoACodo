@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <title>FRONT-END CODO A CODO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/images/codoacodo.png" alt="Logo" width="150px" > Conf Bs As
+        </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse justify-content-around collapse" id="navbarNav">
+          <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">La conferencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Los Oradores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">El lugar y la fecha</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Conviértete en Orador</a></li>
+          <li class="nav-item"><a class="nav-link" style="color:green" href="#">Comprar Tickets</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--CAROUSEL BIENVENIDA-->
+<main>
+  <style>
+  
+  </style>
+  
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/ba1.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+        <div class="carousel-item">
+          <img src="/images/ba2.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+        <img src="/images/ba3.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--ORADORES-->
+<div class="oradores">
+  <section>
+    <div class="text-center text-dark pt-3 pb-1" style="color:white;">
+      <h6 class="fs-6 ">CONOCE MAS</h6>
+      <h3 class="fs-5">A LOS ORADORES</h3>
+    </div>
+  </section>
+  
+  <section class="container">
+    <div class="row" style="display: flex; justify-content: space-evenly">
+      <div class="col-sm">
+
+        <div class="card">
+          <img src="/images/steve.jpg" class="card-img-top" alt="Steve Jobs">
+          <div class="card-body">
+            <span class="badge bg-warning text-dark">JavaScript</span>
+            <span class="badge bg-info text-dark">React</span>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Creador de APPLE</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card">
+          <img src="/images/bill.jpg" class="card-img-top" alt="Bill Gates">
+          <div class="card-body">
+            <span class="badge bg-warning text-dark">JavaScript</span>
+            <span class="badge bg-info text-dark">React</span>
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Creador de Microsoft</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card">
+          <img src="/images/ada.jpeg" class="card-img-top" alt="Ada">
+          <div class="card-body">
+            <span class="badge bg-secondary text-light">Negocios</span>
+            <span class="badge bg-danger text-light">Startups</span>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Creador de APPLE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+</div>
+  
+<!--BUENOS AIRES-->
+  <section class="conocemas container pt-5 ">
+    <div class="card mb-3 bg-dark text-light" style="width:100">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="/images/honolulu.jpg" alt="Honolulu">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Bs As - Octubre</h5>
+            <p class="card-text">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos, Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad(aproximadamente 600km de superficie).</p>
+            <a class="btn btn-outline-light" href="#">Conocé más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--FORM-->
+
+<div class="text-center pt-1">
+ <p class="fs-6">CONVIÉRTETE EN UN</p>
+ <h6 class="text-bold pt-0">ORADOR</h6>
+ <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar! </p>
+
+</div>
+
+<form class="formulario">
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Nombre" name="Nombre">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Apellido" name="Apellido">
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"></label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" cols="55" rows="10" placeholder="Sobre qué quieres hablar ?"></textarea>
+    </div>
+    <span>Recuerda agregar un titulo a tu charla.</span>
+    <br>
+    <button type="submit" class="btn btn-success " style="width:100%;">Enviar</button>
+  </div>    
+</form>
+
+
+</main>
+<!--FOOTER-->
+
+<footer>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <ul class="navbar-nav" style="justify-content: space-between; width:100%">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Preguntas Frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Términos y Condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estudiantes</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>
+
+
