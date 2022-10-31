@@ -1,11 +1,11 @@
 const PRECIO = 200 ;
 
-function resumen(){
-    let cantidadDeEntrada = document.getElementById('cantidadEntrada').value
+function calcularTotal(){
+    let cantidadDeEntradas = document.getElementById('cantidadEntrada').value
     let descuentoPorCategoria = document.getElementById('categoriaDeDescuento').value
-    let subTotal = (PRECIO * cantidadDeEntrada);
+    let subTotal = PRECIO * cantidadDeEntradas;
     let descuento = (descuentoPorCategoria / 100) * subTotal ;
     let precioTotal = subTotal - descuento;
 
-    console.log(precioTotal);
+    document.getElementById('resumenPago').innerHTML = "Total a pagar: $" + precioTotal;
 }
